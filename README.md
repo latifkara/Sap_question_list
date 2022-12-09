@@ -21,6 +21,9 @@
 6. Ekranda ürün kodu ve stok alanım parametre olarak bulunsun. Bu parametreler ile program içerisinde EB10000001, EB10000002, EB10000003, EB10000004, EB10000005, EB10000006, EB10000007 ürünleri internal tabloya ekleyip ardından parametreler ile filtre özelliğini kullanarak bir kod satırı yazar mısınız?
 
 7. Maddede yapılan çalışmalara ek olarak toplam ürün stoğunu görmemizi sağlayan bir kod satırı yazabilir misiniz?
+PARAMETERS: p_urunkd type 2SD_ST_URUN-urunkodu,
+
+​						   p_urunst type 2SD_ST_URUN-stok
 
 8. Stoğu sıfır olan ürünleri gösteren bir rapor yazabilir misiniz ? (6. Maddedeki ürünlerin 2 tanesine stok olarak 0 değeri atayın.)
 
